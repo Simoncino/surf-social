@@ -1,7 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    
+    <p>
+      I possibili link sono
+      <ul>
+        <li>foo</li>
+        <li>bar</li>
+        <li>hello</li>
+      </ul>
+    </p>
     <router-view></router-view>
+    <img src="./assets/logo.png">
   </div>
 </template>
 
