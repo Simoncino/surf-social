@@ -1,7 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    
+    <p>
+      I possibili link sono
+      <ul>
+        <li><router-link to="/foo">Go to Foo</router-link></li>
+        <li><router-link to="/bar">Go to Bar</router-link></li>
+        <li><router-link to="/hello">Go to Hello</router-link></li>
+        <li><router-link to="/post">Go to Post</router-link></li>
+        <li>post</li>
+      </ul>
+    </p>
     <router-view></router-view>
+    <img src="./assets/logo.png">
   </div>
 </template>
 
@@ -19,5 +30,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+ul {
+  list-style: none;
 }
 </style>
